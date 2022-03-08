@@ -13,8 +13,6 @@ def walking(location, wandering, steps):
          
     return beginning.distance(location.get_location(wandering))
 
-<<<<<<< HEAD
-=======
 def simulate_walk(steps, number_attemps,  type_wandering):
     wandering = type_wandering(name='Alirio')
     origen = Track(0, 0)
@@ -54,4 +52,3 @@ if __name__ == '__main__':
     main(distances_walk,number_attemps, ComunWandering)
     
                
->>>>>>> random

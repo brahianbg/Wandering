@@ -1,9 +1,16 @@
+from track import Track
+
+
 class Location:
     
     def __init__(self):
         self.location_wandering ={}
         
+<<<<<<< HEAD
     def add_wardering(self, wandering, track):
+=======
+    def add_wandering(self, wandering, track):
+>>>>>>> random
         self.location_wandering[wandering] = track
         
     def move_wandering(self, wandering):
